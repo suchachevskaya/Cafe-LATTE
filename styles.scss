@@ -1,0 +1,152 @@
+   body {
+       width: 100%;
+       margin: 0px;
+   }
+
+   .header-container {
+       height: 120px;
+       background-color: #4A2B33;
+       color: #D27487;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding-left: 56px;
+       padding-right: 56px;
+
+       .link {
+           font-size: 15px;
+           padding-right: 50px;
+
+           .link-name {
+               color: #D27487;
+               text-decoration: none;
+           }
+       }
+
+       .centre-name {
+           font-size: 50px;
+       }
+   }
+
+   .img-container {
+       height: 680px;
+       background-color: #4A2B33;
+       display: flex;
+       justify-content: center;
+
+
+
+   }
+
+   .text-container {
+       background-color: #F5F5F5;
+       height: 800px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       font-size: 40px;
+       padding-left: 285px;
+       padding-right: 285px;
+   }
+
+   .menu-container {
+       background-color: #E9E9E3;
+       height: 1277px;
+       display: flex;
+       align-items: center;
+
+       .menu-description {
+           width: 558px;
+           padding: 56px;
+
+           .text-name-menu {
+               font-size: 22px;
+           }
+
+           .text-menu {
+               font-size: 32px;
+           }
+
+           .menu-name-container {
+
+               .menu-name {
+                   width: 531px;
+                   height: 58px;
+                   font-size: 24px;
+                   border: 2px solid#6F6F64;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   margin: 12px;
+
+                   &:hover {
+                       background-color: #6F6F64;
+                       transition: 0.7s;
+                   }
+
+               }
+           }
+
+       }
+
+       .img {
+           padding: 56px;
+       }
+   }
+
+   .hours-container {
+       background-color: #AA9E54;
+       height: 500px;
+       color: #F5F5F5;
+
+       .timetable {
+           display: flex;
+           justify-content: space-around;
+           padding-top: 120px;
+           font-size: 18px;
+
+       }
+
+       .timetable-container {
+           display: flex;
+           justify-content: space-around;
+           padding-top: 20px;
+           font-size: 25px;
+       }
+   }
+
+   .img-cafe {
+       background-color: #E9E9E3;
+       height: 912px;
+       display: flex;
+       justify-content: center;
+       padding-top: 152px;
+
+       .img-food {
+           margin-bottom: 40px;
+           margin-right: 40px;
+       }
+
+   }
+
+   .events-container {
+       background-color: #4A2B33;
+       color: #D27487;
+       height: 461px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+
+       .events {
+           font-size: 47px;
+
+       }
+
+       .events-description {
+           width: 400px;
+           font-size: 17px;
+           margin-right: 25px;
+       }
+
+   }
